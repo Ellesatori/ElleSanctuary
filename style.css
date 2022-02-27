@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Baloo+Bhaijaan+2&family=Barlow+Condensed:wght@500&family=Bebas+Neue&family=Bellota&family=Bitter&family=Bree+Serif&family=Dancing+Script:wght@700&family=Fasthand&family=Jacques+Francois+Shadow&family=Jua&family=Noto+Serif+Display:wght@300&family=Open+Sans+Condensed:wght@300&family=Open+Sans:ital,wght@1,300&family=Quicksand&family=Raleway:wght@100&family=Source+Sans+Pro:wght@200&display=swap");
+body {
+  background: url(/Pictures/panda.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  width: 340px;
+  height: 340px;
+  z-index: 2;
+  position: absolute;
+  margin: -100px 0 0 -10px;
+}
+
+.navcontainer {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+  margin: 45px 10px 0 0;
+  z-index: 3;
+}
+
+.item {
+  flex: 1 1 auto;
+  padding: 100px 30px 0 0;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: "Noto Serif Display", serif;
+  font-weight: bolder;
+}
+
+a:hover {
+  color: rgb(37, 37, 36);
+}
+
+.flexcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.messagecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 150px 0 0 0;
+}
+
+.topmessage {
+  font-size: 90px;
+  color: rgb(255, 255, 255);
+  flex: 1;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 50px;
+}
+
+.subtitle {
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  flex: 1;
+  text-align: center;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.button {
+  font-size: 22px;
+  text-align: center;
+  background-color: rgb(201, 81, 60);
+  text-decoration: none;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+
+.signup {
+  font-size: 28px;
+  text-align: center;
+  background-color: rgb(201, 81, 60);
+  text-decoration: none;
+  border: none;
+  border-radius: 3px;
+  padding: 4px 20px;
+  color: rgb(37, 37, 36);
+  font-family: "Noto Serif Display", serif;
+  font-weight: bolder;
+}
+
+button:hover {
+  color: rgb(255, 255, 255);
+}

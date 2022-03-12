@@ -7,7 +7,7 @@
   z-index: -2;
 }
 
-.panda {
+.elephant2 {
   width: 1450px;
   height: 790px;
 }
@@ -17,7 +17,7 @@
   height: 270px;
   z-index: 2;
   position: absolute;
-  margin: -105px 0 0 20px;
+  margin: -105px 0 0 90px;
 }
 
 .navcontainer {
@@ -25,7 +25,7 @@
   justify-content: flex-end;
   position: absolute;
   right: 0;
-  margin: 20px 10px 0 0;
+  margin: 20px 90px 0 70px;
   z-index: 3;
 }
 
@@ -87,11 +87,11 @@ a:hover {
   background-color: rgb(201, 81, 60);
   text-decoration: none;
   border: none;
-  border-radius: 3px;
-  padding: 15px 50px;
+  border-radius: 1px;
+  padding: 10px 50px;
   font-size: 22px;
   font-family: "Questrial", sans-serif;
-  color: rgb(56, 55, 55);
+  color: rgb(255, 255, 255);
   transition: 0.3s;
   z-index: 3;
 }
@@ -156,4 +156,74 @@ a:hover {
 span {
   color: rgb(201, 81, 60);
   font-weight: bolder;
+}
+
+.discoverwildlife {
+  font-size: 70px;
+  font-family: "Secular One", sans-serif;
+  color: rgb(65, 63, 63);
+  margin-bottom: 100px;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.wildcontainer {
+  display: flex;
+  justify-content: center;
+  margin: -50px 0 60px 0;
+}
+
+.bengal {
+  width: 700px;
+  height: 425px;
+  border-radius: 10px;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.whale,
+.panda {
+  width: 350px;
+  height: 210px;
+}
+
+.bengal,
+.whale,
+.panda {
+  flex: 1;
+  border-radius: 2px;
+}
+
+.box1 {
+  margin: 0 -100px 0 10px;
+}
+
+.box2 {
+  margin: 0 -20px 0 0px;
+}
+
+.buttoncontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.readmore {
+  flex: 1;
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 18px;
+  font-family: "Questrial", sans-serif;
+  color: rgb(65, 63, 63);
+  padding: 10px 40px;
+  background-color: white;
+  text-decoration: none;
+  border: 1px solid rgba(170, 247, 97, 0.925);
+}
+
+.readmore:hover {
+  background-color: rgba(170, 247, 97, 0.925);
+  color: white;
 }

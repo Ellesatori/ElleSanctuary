@@ -310,10 +310,18 @@ span {
   font-weight: bold;
 }
 
+.callcontainer {
+  display: flex;
+  justify-content: center;
+}
+
 .bg {
   background-color: rgb(199, 83, 62);
   height: 400px;
+  width: 1020px;
   margin-bottom: 100px;
+  border: none;
+  border-radius: 2px;
 }
 
 .call {
@@ -321,7 +329,7 @@ span {
   color: #ffffff;
   font-size: 60px;
   text-align: center;
-  padding-top: 70px;
+  padding-top: 10px;
   font-weight: bolder;
 }
 
@@ -352,7 +360,9 @@ span {
 }
 
 .socialmedialinks {
-  font-size: 30px;
+  font-size: 24px;
+  margin-top: 90px;
+  margin-bottom: -20px;
 }
 
 .fa {
@@ -362,4 +372,20 @@ span {
   text-decoration: none;
   color: rgb(46, 45, 45);
   flex: 1;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logobottom {
+  width: 200px;
+  height: 200px;
+}
+
+.rights {
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
 }

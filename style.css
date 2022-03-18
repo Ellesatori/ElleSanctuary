@@ -17,7 +17,7 @@
   height: 270px;
   z-index: 2;
   position: absolute;
-  margin: -105px 0 0 30px;
+  margin: -105px 0 0 3px;
 }
 
 .navcontainer {
@@ -25,7 +25,7 @@
   justify-content: flex-end;
   position: absolute;
   right: 0;
-  margin: 20px 90px 0 70px;
+  margin: 20px 10px 0 70px;
   z-index: 3;
 }
 
@@ -318,10 +318,8 @@ span {
 .bg {
   background-color: rgb(199, 83, 62);
   height: 400px;
-  width: 1020px;
-  margin-bottom: 100px;
-  border: none;
-  border-radius: 2px;
+  width: 1440px;
+  margin-bottom: 0px;
 }
 
 .call {
@@ -354,15 +352,22 @@ span {
   color: #ffffff;
 }
 
+.footerline {
+  background-color: rgb(61, 58, 58);
+  height: 50px;
+  margin-bottom: -60px;
+}
+
 .SMcontainer {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .socialmedialinks {
   font-size: 24px;
   margin-top: 90px;
   margin-bottom: -20px;
+  padding-right: 20px;
 }
 
 .fa {
@@ -376,16 +381,33 @@ span {
 
 .footer {
   display: flex;
-  justify-content: center;
+  flex-direction: flex-start;
+  position: absolute;
+  z-index: 3;
+}
+
+.footercontainer {
+  display: flex;
   align-items: center;
+  margin-top: -80px;
+  margin-left: 20px;
 }
 
 .logobottom {
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 160px;
+}
+
+.rights,
+.copyright {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
+}
+
+.copyright {
+  margin-right: -10px;
 }
 
 .rights {
-  font-family: "Quicksand", sans-serif;
-  font-size: 14px;
+  margin-left: -15px;
 }

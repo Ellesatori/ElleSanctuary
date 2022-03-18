@@ -319,7 +319,7 @@ span {
   background-color: rgb(199, 83, 62);
   height: 400px;
   width: 1440px;
-  margin-bottom: 0px;
+  margin-bottom: 100px;
 }
 
 .call {
@@ -354,8 +354,8 @@ span {
 
 .footerline {
   background-color: rgb(61, 58, 58);
-  height: 50px;
-  margin-bottom: -60px;
+  height: 1px;
+  margin-bottom: -80px;
 }
 
 .SMcontainer {
